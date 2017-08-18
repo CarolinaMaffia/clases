@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+</head>
+<body>
+	<form action="formulario.html" method="xD">
+		<div>
+			<label for="nombre">Nombre</label>
+			<input placeholder="escribí tu nombre" type="text" name="nombre" id="nombre">
+		</div>
+		<div>
+			<label for="edad">Edad</label>
+			<input min="18" max="99" type="number" name="edad" id="edad" placeholder="escribí tu edad" value="18" required checked="true">
+		</div>
+		<div>
+			<label for="mensaje">
+				<textarea  id="mensaje">Escriba aquí</textarea>
+			</label>
+		</div>
+		<div>
+			<input type="file" name="foto">
+		</div>
+		<div>
+			<label for="algoqueseseleccione">Seleccioná tu opción
+				<select name="algoqueseseleccione" id="">
+				<option disabled="true" selected="true">Alguito</option>
+					<option value="">Seleccioná tu opción</option>
+					<option value="">Opción1</option>
+					<option value="">Opción2</option>
+					<option value="">Opción3</option>
+			</label>
+				</select>
+		</div>
+		<div>
+			<button type="submit">
+				Enviar
+			</button>
+			<button type="reset">
+				Limpiar
+			</button>
+			<button type="button">
+				No hago nada
+			</button>
+
+		<div>
+			<label for="terminosycondiciones">
+				Acepta terminos y condiciones
+			</label>
+				<input  id="terminosycondiciones" type="checkbox">
+		</div>
+
+		</div>
+	</form>
+</body>
+</html>
