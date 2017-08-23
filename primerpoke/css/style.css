@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+}
+
+li{
+	
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+}
+a:link {
+	color: black;
+}
+
+h2, h3 {
+	font-family: 'Podkova', serif;
+
+}
+ul{
+	display: inline-block;
+}
+
+#container {
+	width: 50%
+	margin: 0 auto;
+}
+#banner {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 25px;
+	font-family: 'Podkova', serif;
+
+}
+
+#tipos {
+	display: inline-block;
+}
+
+.types {
+
+}
