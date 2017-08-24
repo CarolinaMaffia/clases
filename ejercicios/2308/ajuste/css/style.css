@@ -1,0 +1,176 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+body {
+	background-color: grey;
+}
+
+#lateral {
+	width: 90%;
+	height: 750px;
+	margin: 0 auto;
+}
+#horizontal {
+	width: 90%;
+	height: 150px;
+	margin: 0 auto;
+}
+#horizontal2 {
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+}
+.lateral_blanco {
+	float: left;
+	width: 12.5%;
+	height: 750px;
+	background-color: white;
+}
+.lateral_amarillo {
+	float: left;
+	width: 12.5%;
+	height: 750px;
+	background-color: #FFFF01;
+}
+.lateral_celeste {
+	float: left;
+	width: 12.5%;
+	height: 750px;
+	background-color: #01FFFF;
+}
+.lateral_verde {
+	float: left;
+	width: 12.5%;
+	height: 750px;
+	background-color: #00FF01;
+}
+.lateral_rosa {
+	float: left;
+	width: 12.5%;
+	height: 750px;
+	background-color: #FF00FE;
+}
+.lateral_rojo {
+	float: left;
+	width: 12.5%;
+	height: 750px;
+	background-color: #FE0000; 
+}
+.lateral_azul {
+	float: left;
+	width: 12.5%;
+	height: 750px;
+	background-color: #0000FE;
+}
+.lateral_negro {
+	float: left;
+	width: 12.5%;
+	height: 750px;
+	background-color: black;
+}
+
+.horizontal1 {
+	float: left;
+	width: 12.5%;
+	height: 150px;
+	background-color: #0000FE;
+}
+
+.horizontal2 {
+	float: left;
+	width: 12.5%;
+	height: 150px;
+	background-color: black;
+}
+
+.horizontal3 {
+	float: left;
+	width: 12.5%;
+	height: 150px;
+	background-color: #FF00FE;
+}
+
+.horizontal4 {
+	float: left;
+	width: 12.5%;
+	height: 150px;
+	background-color: black;
+}
+
+.horizontal5 {
+	float: left;
+	width: 12.5%;
+	height: 150px;
+	background-color: #01FFFF;
+}
+
+.horizontal6 {
+	float: left;
+	width: 12.5%;
+	height: 150px;
+	background-color: black;
+}
+
+.horizontal7 {
+	float: left;
+	width: 12.5%;
+	height: 150px;
+	background-color: white;
+}
+
+.horizontal8 {
+	float: left;
+	width: 12.5%;
+	height: 150px;
+	background-color: black;
+}
+.horizontal9{
+	float: left;
+	width: 12.5%;
+	height: 50px;
+	background-color: black;
+}
+.horizontal10{
+	float: left;
+	width: 12.5%;
+	height: 50px;
+	background-color: #242424;
+}
+.horizontal11{
+	float: left;
+	width: 12.5%;
+	height: 50px;
+	background-color: #373737;
+}
+.horizontal12{
+	float: left;
+	width: 12.5%;
+	height: 50px;
+	background-color: #505050;
+}
+.horizontal13{
+	float: left;
+	width: 12.5%;
+	height: 50px;
+	background-color: #757575;
+}
+.horizontal14{
+	float: left;
+	width: 12.5%;
+	height: 50px;
+	background-color: #9C9C9C;
+}
+.horizontal15{
+	float: left;
+	width: 12.5%;
+	height: 50px;
+	background-color: #D5D5D5;
+}
+.horizontal16{
+	float: left;
+	width: 12.5%;
+	height: 50px;
+	background-color: white;
+}
