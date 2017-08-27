@@ -1,0 +1,174 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	
+}
+
+#container {
+	width: 750px;
+	padding-top: 100px;
+}
+
+.line1 {
+	width:750px;
+}
+
+.line2{
+
+	width: 750px;
+}
+.line3 {
+	width: 750px;
+}
+
+h2{
+	text-align: center;
+	padding-top: 105px;
+	opacity: 0;
+	font-family: 'Open Sans', sans-serif;
+	width: 250px;
+	font-size: 26px;
+	height: 150px;
+	
+}
+
+#mercury {
+	background-image: url(../img/mercury1.jpg);
+	float: left;
+	background-size: 100%;
+	width: 250px;
+	height: 250px;
+	background-repeat: no-repeat;
+}
+
+#venus {
+	background-image: url(../img/venus1.jpg);
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#earth {
+	background-image: url(../img/earth1.jpg);
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#mars {
+	background-image: url(../img/mars1.jpg);
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#jupiter {
+	background-image: url(../img/jupiter.jpg);
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#saturn {
+	background-image: url(../img/saturn1.jpg);
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#uranus {
+	background-image: url(../img/uranus1.jpg);
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#neptune {
+	background-image: url(../img/neptune1.jpg);
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#sun {
+	background-image: url(../img/sun1.jpg);
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.white h2{
+	color: white;
+}
+
+h2:hover {
+	opacity: 1;
+	font-size: 35px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+a:active{
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+#mercury:hover{
+	opacity: 0.70;
+}
+
+#venus:hover {
+	opacity: 0.70;
+}
+
+#earth:hover{
+	opacity: 0.70;
+}
+
+#mars:hover{
+	opacity: 0.70;
+}
+
+#jupiter:hover{
+	opacity: 0.70;
+}
+#saturn:hover{
+	opacity: 0.70;
+}
+
+#uranus:hover{
+	opacity: 0.70
+}
+
+#neptune:hover{
+	opacity: 0.70;
+}
+
+#sun:hover{
+	opacity: 0.70;
+}
