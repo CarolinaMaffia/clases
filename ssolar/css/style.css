@@ -13,16 +13,8 @@ body {
 	padding-top: 100px;
 }
 
-.line1 {
+.line {
 	width:750px;
-}
-
-.line2{
-
-	width: 750px;
-}
-.line3 {
-	width: 750px;
 }
 
 h2{
@@ -35,59 +27,39 @@ h2{
 	height: 150px;
 	
 }
-
-#mercury {
-	background-image: url(../img/mercury1.jpg);
+.planet {
 	float: left;
 	background-size: 100%;
 	width: 250px;
 	height: 250px;
 	background-repeat: no-repeat;
+}
+
+#mercury {
+	background-image: url(../img/mercury1.jpg);
 }
 
 #venus {
 	background-image: url(../img/venus1.jpg);
-	float: left;
-	width: 250px;
-	height: 250px;
-	background-size: 100%;
-	background-repeat: no-repeat;
+	
 }
 
 #earth {
 	background-image: url(../img/earth1.jpg);
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-size: 100%;
-	background-repeat: no-repeat;
+	
 }
 
 #mars {
 	background-image: url(../img/mars1.jpg);
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-size: 100%;
-	background-repeat: no-repeat;
+
 }
 
 #jupiter {
 	background-image: url(../img/jupiter.jpg);
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
+  }
 
 #saturn {
 	background-image: url(../img/saturn1.jpg);
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-size: 100%;
-	background-repeat: no-repeat;
 }
 
 #uranus {
@@ -101,20 +73,10 @@ h2{
 
 #neptune {
 	background-image: url(../img/neptune1.jpg);
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-size: 100%;
-	background-repeat: no-repeat;
 }
 
 #sun {
 	background-image: url(../img/sun1.jpg);
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-size: 100%;
-	background-repeat: no-repeat;
 }
 
 .white h2{
@@ -138,37 +100,6 @@ a:visited {
 	color: black;
 }
 
-#mercury:hover{
-	opacity: 0.70;
-}
-
-#venus:hover {
-	opacity: 0.70;
-}
-
-#earth:hover{
-	opacity: 0.70;
-}
-
-#mars:hover{
-	opacity: 0.70;
-}
-
-#jupiter:hover{
-	opacity: 0.70;
-}
-#saturn:hover{
-	opacity: 0.70;
-}
-
-#uranus:hover{
-	opacity: 0.70
-}
-
-#neptune:hover{
-	opacity: 0.70;
-}
-
-#sun:hover{
+.planet:hover{
 	opacity: 0.70;
 }
