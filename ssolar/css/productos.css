@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+section{
+	width: 100%;
+	height: 1500px;
+	background-color: black;
+	
+}
+
+.row {
+	width: 90%;
+	height: 700px;
+	margin-left: 100px;
+	padding-top: 10px;
+	
+	 }
+
+.art {
+	float: left;
+	background-color: white;
+	text-align: center;
+	margin-left: 15px;
+	border: 10px solid white;
+	
+	width: 32%;
+	height: 600px;
+
+}
+figure img{
+	width: 500px;
+	height: 500px;
+}
+
+figcaption {
+font-size: 25px;
+margin-top: 10px;
+
+}
+
+input {
+	width: 35px;
+	text-align: center;
+}
+
+footer {
+	text-align: right;
+	background-color: #122C51;
+	color: white;
+	height: 50px;
+	font-size: 20px;
+	padding-top: 20px;
+}

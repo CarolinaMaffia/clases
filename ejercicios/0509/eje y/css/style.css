@@ -1,0 +1,37 @@
+/* *{
+	margin: 0;
+	padding: 0;
+}
+*/
+
+.horizontal {
+	background-color: violet;
+	width: 60%;
+	margin: 0 auto;	
+	text-align: center;
+
+}
+
+.vertical {
+	background-color: pink;
+	text-align: center;
+	padding: 120px;
+
+}
+
+.padre {
+	background-color: lightblue;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+
+.hijo {
+	width: 250px;
+	height: 250px;
+	background-color: purple;
+	/*margin: auto;*/
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}

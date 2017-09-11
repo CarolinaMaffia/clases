@@ -1,0 +1,248 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	text-decoration: none;
+}
+
+body {
+ background-color: #fff;
+ width: 100%;
+ font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 background-color: #333;
+	 height: 50px;
+
+}
+nav li {
+	margin-top: 10px;
+}
+nav ul li {
+	font-family: 'Bree Serif', serif;
+	display: inline-block;
+	margin-top: 10px;
+	height: 60px;
+}
+
+nav ul li a {
+	
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 20px;
+}
+
+nav ul li a:hover {
+	background-color: #111;
+}
+.submenu {
+	display: none;
+	z-index: 1;
+	position: absolute;
+	height: 192px;
+	margin-top: 10px;
+	width: 230px;
+}
+
+nav ul li ul li{
+	display: block;
+
+}
+
+nav .ancla:hover .submenu{
+	display: block;
+	z-index: 1;
+}
+
+.submenu a {
+	margin-right:100px;
+	padding-right:60px;
+}
+
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	
+}
+
+header{ 
+	position: relative;
+	height: 530px;
+	margin-top: -1px;
+	width: 100%;
+}
+
+header img {
+	width: 100%;
+}
+
+h1 {
+	z-index: 1;
+	position: relative;
+	color:#E8E8EB;
+	left:0 auto;
+	bottom: 100px;
+	font-size: 60px;
+	font-family: 'Merriweather', serif;
+	
+}
+
+
+h2{
+	font-size: 35px;
+	font-family: 'Bree Serif', serif;
+}
+
+
+.banner2{
+	margin-top: 50px;
+}
+
+.cont {
+	width: 100%;
+	height: 600px;
+	padding: 40px;
+}
+
+.cont h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.cont p {
+	width: 65%;
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+}
+
+.bioimg {
+	display: inline-block;
+	float: left;
+	margin-left: 90px;
+}
+
+section .margin {
+	background-image: url(../img/back.jpg);
+	background-attachment: fixed;
+	background-position: top;
+	width: 100%;
+	height: 400px;
+	color: white;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	font-size: 60px;
+
+
+}
+
+.margin p {
+	padding-top: 80px;
+}
+
+section .contdisco {
+	width: 80%;
+	height: 1000px;
+
+}
+
+.row {
+	display: flex;
+	align-items: space-around;
+	flex-wrap: wrap;
+	height: 1000px;
+	text-align: center;
+
+}
+
+
+  .contdisco .row .discos h2 {
+	font-size: 40px;
+	padding-top: 170px;
+	display: none;
+		
+}
+
+#secdisco {
+	padding: 50px;
+}
+
+.discos {
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	border: 2px black solid;
+	border-radius: 2%;
+}
+
+.contdisco .row .discos:hover h2 {
+	display: block;
+
+}
+
+.contdisco .row .discos:hover {
+	opacity: 0.70;	
+
+}
+
+a:active, a:visited {
+	color: black;
+}
+
+	#sometimes {
+	background-image: url(../img/sometimes1.jpg);
+}
+
+#bringme {
+	background-image: url(../img/bmyl1.jpg);
+
+}
+
+#live {
+	background-image: url(../img/live1.jpg);
+}
+
+#little {
+	background-image: url(../img/littlehell.jpg1.jpg);
+}
+
+#thath {
+	background-image: url(../img/thath.jpg1.jpg);
+}
+
+#if {
+	background-image: url(../img/beforeyou1.jpg);
+}
+
+.discolist .lista {
+	display: flex;
+}
+
+
+footer {
+  background-color: #333;
+  color:#fff;
+  padding: 10px;
+  height: 25px;
+  position: relative;
+  top:0;
+  right:0;
+
+
+}
+footer a:link, footer a:visited {
+  color: #999;
+  text-decoration: none;
+}
+footer a:hover, footer a:active {
+  color: #555;
+}
