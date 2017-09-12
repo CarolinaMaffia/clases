@@ -10,12 +10,19 @@ body {
  font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
 nav ul {
 	 list-style-type: none;
 	 margin: 0;
 	 padding: 0;
 	 background-color: #333;
 	 height: 50px;
+	 width: 100%;
 
 }
 nav li {
@@ -225,8 +232,13 @@ a:active, a:visited {
 
 .discolist .lista {
 	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
 }
 
+.imglista {
+
+}
 
 footer {
   background-color: #333;

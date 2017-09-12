@@ -1,0 +1,37 @@
+.grey {
+	background-color:#B1AFB0;
+}
+
+.yellow {
+	background-color: #FFFF01;
+}
+
+.blue {
+	background-color: #0101FF; 
+}
+.green {
+	background-color: green;
+}
+.pink {
+	background-color: #FF01FF;
+}
+.red {
+	background-color: red;
+}
+.black {
+	background-color: black;
+}
+.grad {
+	background: linear-gradient(to right, #fff, #000);
+}
+.alto1 {
+	height: 500px;
+}
+
+.alto2 {
+	height: 100px;
+}
+
+.alto3 {
+	height: 150px;
+}
