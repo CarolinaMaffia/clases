@@ -1,0 +1,15 @@
+.colu {
+	border: 1px solid;
+	padding: 20px;
+}
+
+.caja {
+	background-color: violet;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.ban {
+	background-color: pink;
+	padding: 20px;
+}
