@@ -78,7 +78,7 @@ nav .ancla:hover .submenu{
 	width: 100%;
 	z-index: 1;
 	
-}
+} 
 
 header{ 
 	position: relative;
@@ -230,14 +230,18 @@ a:active, a:visited {
 	background-image: url(../img/beforeyou1.jpg);
 }
 
+.discolist {
+	height: 10px;
+	float: left;
+	
+}
+
 .discolist .lista {
-	display: flex;
-	flex-flow: column;
-	align-items: flex-end;
+  	float: left;
 }
 
 .imglista {
-
+ float: left;
 }
 
 footer {
