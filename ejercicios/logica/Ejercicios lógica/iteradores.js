@@ -69,7 +69,7 @@ for (var i = 0; i <= x.length; i++) {
 console.log("el valor " + numBig + " es el valor maximo del array y se repite: " + time + " veces");
 */
 //Ejercicio 6
-/*
+
 var x = ["a", "l", "f", "a"];
 var y = ["a", "l", "f", "a", "o", "r"];
 var distinto = false;
@@ -107,7 +107,34 @@ for (i = 0; i < N; i++) {
     }
     console.log(cont)
 }
+/*
+var k = 0;
+var match = [];
+var isFound = false;
+var little = y;
+var big=x;
+for (i = 0; i < little.length; i++) {
+    isFound = false;
+    for (j = 0; j < big.length; j++) {
+        if (little[i] == big[i]) {
+            valSame = little[i];
+            for (var k = 0; k < match.length; k++) {
+                if (valSame == match[k]) {
+                    isFound = true;
+                }
+            }
+            if (isFound == false) {
+                match[match.length] = valSame;
+            }
+        }
+    }
+}
 */
+
+var cont = 0;
+var comun = [];
+for(var i=0;)
+
 //Ejercicio 7 typeof = devuelve el tipo de dato. Con === comparo el tipo de dato. 
 
 var datos1 = ["Fido", "Gomez", 26, 15000.78, true];
@@ -122,20 +149,20 @@ for (i = 0; i < datos1.length; i++) {
         console.log("Fido es menor");
     }
     if (typeof(datos1[i]) == "boolean" && typeof(datos2[i]) == "boolean") {
-            if (datos1[i]) {
-                console.log("Casado")
-            }else{
-            	console.log ("no casado ahre");
-            }
+        if (datos1[i]) {
+            console.log("Casado")
+        } else {
+            console.log("no casado ahre");
         }
-   }
+    }
+}
 
 
 
-   /* Operador de negación
+/* Operador de negación
 
-   var verdadero = true;
-   var falso = !verdadero;
+var verdadero = true;
+var falso = !verdadero;
 
-   console.log (falso) // false ahre
-   */
+console.log (falso) // false ahre
+*/
